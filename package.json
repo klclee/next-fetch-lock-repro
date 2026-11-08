@@ -1,0 +1,13 @@
+{
+  "name": "next-fetch-lock-repro",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "build:control": "REPRO_URL=http://127.0.0.1:9/data.json next build"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.44",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}
